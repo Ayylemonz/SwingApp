@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a3991b-67f0-42ac-b29d-cd755179baa3" name="Default Changelist" comment="">
+    <list default="true" id="90a3991b-67f0-42ac-b29d-cd755179baa3" name="Default Changelist" comment="mad textPnael AND put JText area in it">
+      <change afterPath="$PROJECT_DIR$/src/TextPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +128,8 @@
     <MESSAGE value="Mainframe" />
     <MESSAGE value="need to redo" />
     <MESSAGE value="Add them Buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add them Buttons" />
+    <MESSAGE value="mad textPnael AND put JText area in it" />
+    <option name="LAST_COMMIT_MESSAGE" value="mad textPnael AND put JText area in it" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
