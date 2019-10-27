@@ -6,11 +6,11 @@ import java.awt.*;
  The buttons prints text to it and you can type in there too
 */
 
-class TextPanel extends JPanel {
+public class TextPanel extends JPanel {
 
     private JTextArea textArea;
 
-    TextPanel() {
+    public TextPanel() {
         // sets Border Layout
         setLayout(new BorderLayout());
 
@@ -20,7 +20,7 @@ class TextPanel extends JPanel {
     }
 
     // A fanchon to append text to the "TextPanel"
-    void appendText(String text) {
+    public void appendText(String text) {
         textArea.append(text);
     }
 }

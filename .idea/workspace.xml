@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a3991b-67f0-42ac-b29d-cd755179baa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Toolbar.java" afterDir="false" />
+    <list default="true" id="90a3991b-67f0-42ac-b29d-cd755179baa3" name="Default Changelist" comment="Butttons all work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SwingApp/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/MainFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SwingApp/TextPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/TextPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TextPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Toolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Toolbar.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />

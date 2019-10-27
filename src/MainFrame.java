@@ -14,7 +14,7 @@ class MainFrame extends JFrame {
 
         // Adds a Panel to the top of the app
         toolbar = new Toolbar();
-        toolbar.setTextPanel(textPanel);
+
         add(toolbar, BorderLayout.NORTH);
 
 
@@ -29,6 +29,8 @@ class MainFrame extends JFrame {
         add(btn, BorderLayout.SOUTH);
         btnActionPerformed();  // Prints Hello! to the text panel
 
+        toolbar.setTextPanel(textPanel);
+
         // Makes the window
         setTitle("Cool App");
         setSize(600, 500);
@@ -40,6 +42,8 @@ class MainFrame extends JFrame {
 
     // method for the btn 'Click me'
     private void btnActionPerformed() {
-        btn.addActionListener(e -> textPanel.appendText("Hello!\n"));
+        btn.addActionListener(e -> {
+            textPanel.appendText("Hello!\n");
+        });
     }
 }
