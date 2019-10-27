@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a3991b-67f0-42ac-b29d-cd755179baa3" name="Default Changelist" comment="Butttons all work">
+    <list default="true" id="90a3991b-67f0-42ac-b29d-cd755179baa3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FormPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SwingApp/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwingApp/TextPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/TextPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingApp/Toolbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/Toolbar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Toolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Toolbar.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -112,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572019688324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Buttons all work">
+      <created>1572168653817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572168653817</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Buttons all work">
+      <created>1572168714405</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572168714405</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -138,7 +154,8 @@
     <MESSAGE value="need to redo" />
     <MESSAGE value="Add them Buttons" />
     <MESSAGE value="mad textPnael AND put JText area in it" />
-    <option name="LAST_COMMIT_MESSAGE" value="mad textPnael AND put JText area in it" />
+    <MESSAGE value="Buttons all work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buttons all work" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

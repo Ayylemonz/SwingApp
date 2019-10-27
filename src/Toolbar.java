@@ -10,7 +10,8 @@ class Toolbar extends JPanel implements ActionListener {
     private JButton helloButton;
     private JButton goodByeButton;
 
-    private TextPanel textPanel;
+    private StringListener textListener;
+
 
     public Toolbar() {
         // sets a flow layout to left for the toolbar
@@ -20,13 +21,13 @@ class Toolbar extends JPanel implements ActionListener {
         helloButton.addActionListener(this);
         add(helloButton);
 
-        goodByeButton = new JButton("Good bye!");
+        goodByeButton = new JButton("Goodbye!");
         add(goodByeButton);
         goodByeButton.addActionListener(this);
     }
 
-    public void setTextPanel(TextPanel textPanel) {
-        this.textPanel = textPanel;
+    public void setStringListener(StringListener listener) {
+        this.textListener = listener;
     }
 
     @Override
@@ -34,9 +35,13 @@ class Toolbar extends JPanel implements ActionListener {
         JButton clicked = (JButton) e.getSource();
 
         if (clicked == helloButton) {
-            textPanel.appendText("Hello\n");
+            if (textListener != null) {
+                textListener.textEmitted("Hello!\n");
+            }
         } else if (clicked == goodByeButton) {
-            textPanel.appendText("Good bye!\n");
+            if (textListener != null) {
+                textListener.textEmitted("Goodbye!\n");
+            }
         }
     }
 }

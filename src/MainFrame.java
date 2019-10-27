@@ -4,46 +4,55 @@ import java.awt.*;
 class MainFrame extends JFrame {
 
     private TextPanel textPanel;
-    private JButton btn;
     private Toolbar toolbar;
+    private FormPanel formPanel;
 
     MainFrame() {
+        setLayout(new BorderLayout()); // Sets a Border layout for this frame
 
-        // Sets a Border layout for this frame
-        setLayout(new BorderLayout());
+        MakeToolBar(); // Makes the Toolbar In the North of app.
+        MakeTextPanel(); // Makes the Text Panel in the Scanter of app.
+        MakeFormPanel(); // Makes the Form Panel in the West of app.
 
+        ToolBarButtons(); // The Hello and Goodbye buttons on the Top North Toolbar
+
+        AppWindow(); // Makes the main app window.
+    }
+
+    private void MakeToolBar() {
         // Adds a Panel to the top of the app
         toolbar = new Toolbar();
-
         add(toolbar, BorderLayout.NORTH);
+    }
 
+    private void ToolBarButtons() {
+        // The String listener for the Toolbar 'Hello!' and 'GoodBye!' button's.
+        toolbar.setStringListener(new StringListener() {
+            public void textEmitted(String text) {
+                textPanel.appendText(text);
+            }
+        });
+    }
 
+    private void MakeTextPanel() {
         // Makes a Text area and putts it in
         // the center with the Border Layout.
         textPanel = new TextPanel();
         add(textPanel, BorderLayout.CENTER);
+    }
 
-        // Make Button that says Click me.
-        // And puts it in at the South with the Border Layout.
-        btn = new JButton("Click Me!");
-        add(btn, BorderLayout.SOUTH);
-        btnActionPerformed();  // Prints Hello! to the text panel
+    private void MakeFormPanel() {
+        formPanel = new FormPanel();
+        add(formPanel, BorderLayout.WEST);
+    }
 
-        toolbar.setTextPanel(textPanel);
-
-        // Makes the window
+    private void AppWindow() {
+        // Makes the main window
         setTitle("Cool App");
         setSize(600, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setResizable(false);
-    }
-
-    // method for the btn 'Click me'
-    private void btnActionPerformed() {
-        btn.addActionListener(e -> {
-            textPanel.appendText("Hello!\n");
-        });
     }
 }
