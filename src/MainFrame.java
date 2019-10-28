@@ -5,7 +5,6 @@ class MainFrame extends JFrame {
 
     private TextPanel textPanel;
     private Toolbar toolbar;
-    private FormPanel formPanel;
 
     MainFrame() {
         setLayout(new BorderLayout()); // Sets a Border layout for this frame
@@ -42,7 +41,7 @@ class MainFrame extends JFrame {
     }
 
     private void MakeFormPanel() {
-        formPanel = new FormPanel();
+        FormPanel formPanel = new FormPanel();
         add(formPanel, BorderLayout.WEST);
     }
 

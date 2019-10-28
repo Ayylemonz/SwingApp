@@ -13,10 +13,16 @@ class Toolbar extends JPanel implements ActionListener {
     private StringListener textListener;
 
 
-    public Toolbar() {
+    Toolbar() {
+        // makes a border around the Tool bar
+        setBorder(BorderFactory.createEtchedBorder());
         // sets a flow layout to left for the toolbar
         setLayout(new FlowLayout(FlowLayout.LEFT));
+        // the Hello and goodbye buttons
+        Buttons();
+    }
 
+    private void Buttons() {
         helloButton = new JButton("Hello!");
         helloButton.addActionListener(this);
         add(helloButton);
@@ -26,7 +32,7 @@ class Toolbar extends JPanel implements ActionListener {
         goodByeButton.addActionListener(this);
     }
 
-    public void setStringListener(StringListener listener) {
+    void setStringListener(StringListener listener) {
         this.textListener = listener;
     }
 
