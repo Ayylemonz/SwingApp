@@ -5,6 +5,7 @@ class MainFrame extends JFrame {
 
     private TextPanel textPanel;
     private Toolbar toolbar;
+    private FormPanel formPanel;
 
     MainFrame() {
         setLayout(new BorderLayout()); // Sets a Border layout for this frame
@@ -16,6 +17,8 @@ class MainFrame extends JFrame {
         ToolBarButtons(); // The Hello and Goodbye buttons on the Top North Toolbar
 
         AppWindow(); // Makes the main app window.
+
+        FormPanelListener();
     }
 
     private void MakeToolBar() {
@@ -41,8 +44,19 @@ class MainFrame extends JFrame {
     }
 
     private void MakeFormPanel() {
-        FormPanel formPanel = new FormPanel();
+        formPanel = new FormPanel();
         add(formPanel, BorderLayout.WEST);
+    }
+
+    private void FormPanelListener() {
+        formPanel.setFormListener(new FormListener() {
+            public void formEventOccurred(FormEvent e) {
+                String name = e.getName();
+                String occupation = e.getOccupation();
+
+                textPanel.appendText(name + ": " + occupation + "\n");
+            }
+        });
     }
 
     private void AppWindow() {
