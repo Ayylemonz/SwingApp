@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a3991b-67f0-42ac-b29d-cd755179baa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FormEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FormListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingApp/FormPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/FormPanel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SwingApp/FormPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/FormPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwingApp/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/MainFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwingApp/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingApp/MainFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FormPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572295786261</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="We got an panel list with some age area">
+      <created>1572464122577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572464122577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -182,7 +185,8 @@
     <MESSAGE value="Buttons all work" />
     <MESSAGE value="making FormPanel" />
     <MESSAGE value="made the name and the occupation fields with the ok button at the bottom." />
-    <option name="LAST_COMMIT_MESSAGE" value="made the name and the occupation fields with the ok button at the bottom." />
+    <MESSAGE value="We got an panel list with some age area" />
+    <option name="LAST_COMMIT_MESSAGE" value="We got an panel list with some age area" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// 1:56:22
+// 1:58:02
 
 class FormPanel extends JPanel {
 
@@ -83,6 +83,9 @@ class FormPanel extends JPanel {
         ageModel.addElement("18 to 65");
         ageModel.addElement("65 or over");
         ageList.setModel(ageModel);
+
+        ageList.setPreferredSize(new Dimension(110, 60));
+        ageList.setBorder(BorderFactory.createEtchedBorder());
 
         gc.weightx = 1;
         gc.weighty = 2.0;
